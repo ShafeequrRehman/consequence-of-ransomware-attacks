@@ -151,7 +151,7 @@
     height: 0.5px;
     background-color: #afafaf3b; /* Line color */
     /* position: relative !important; */
-    z-index: 0 !important;
+    z-index: 0 !important; 
   }
   .barmain3 {
       flex: 1;
@@ -215,7 +215,15 @@
       padding-right: 10px;
     }
     .x-axis-labels3 {
-      left: 72px;
+      position: absolute;
+    bottom: -70px;
+    left: 87px !important;
+    display: flex
+;
+    text-wrap: wrap;
+    justify-content: space-around;
+    width: calc(110% - -169px);
+    font-size: 0.7rem;
     }
     .grid-line-3m3 {
     bottom: 130px; /* 80% height for $3 Million */
